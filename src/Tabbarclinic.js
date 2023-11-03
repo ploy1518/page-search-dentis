@@ -1,6 +1,6 @@
-import './Tabbar.css'
+import './Tabbarclinic.css'
 
-function Tabbar(){
+function Tabbarclinic(){
     return(
         <div className="tabbar">
           <img className="logo" src="images-tabbar\logo.jpg" />
@@ -13,4 +13,4 @@ function Tabbar(){
         </div>
     )
 }
-export default Tabbar;
+export default Tabbarclinic;

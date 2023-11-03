@@ -24,7 +24,7 @@ a{
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 140px;
+    padding-top: 175px;
 }
 
 
@@ -34,10 +34,10 @@ input{
     background: #F6F5F5;
     inline-size: 500px;
     border-radius: 30px;
-    top: 7rem;
+    top: 10rem;
     height: 45px;
     border: 0;/*ขอบ*/
-    color: #A0C49D;
+    color: #F1C376;/*สีตัวอักษรตอนกรอก*/
 
 }
 
@@ -50,13 +50,13 @@ input:not(:placeholder-shown) {
 }
 
 input:placeholder-shown{
-    color: #A0C49D;
+    color: #F1C376;
 }
 
 .app-search img{
     position: absolute;
     right: 22rem;
-    top: 7.7rem;
+    top: 10.7rem;
     height: 25px;
     width: auto;
 }
@@ -64,11 +64,11 @@ input:placeholder-shown{
 div.app-search button{
     position: absolute;
     display: block;
-    background: #A0C49D;
+    background: #F1C376;
     padding: 20px 40px;
     border-radius: 20px;
     right: 14rem;
-    top: 7.2rem;
+    top: 10.2rem;
     border: 0;
 }
 
@@ -77,8 +77,8 @@ div.app-search button:hover{/*ดักจับเหต์การเมื�
 
 }
 
-div.app-search button:active {
-    background-color: #a6d1a0;
+div.app-search button:active {/*ดักจับเหต์การเมื่อเอาเมาส์กด*/
+    background-color: #edc888;
     transform: scale(0.995);
   }
 
